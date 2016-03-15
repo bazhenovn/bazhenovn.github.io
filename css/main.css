@@ -1,5 +1,5 @@
 header {
-	background: url(../img/bg.png) no-repeat center;
+	background: #000 url(../img/bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 100%;
