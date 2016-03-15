@@ -1,0 +1,38 @@
+header {
+	background: #000 url(../img/bg.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+figure {
+  	width: 65%;
+  	display: block;
+  	opacity: 0.3;
+		
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+  	transform: rotate(-3deg);
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+figure:hover {
+	opacity: 1;
+}
